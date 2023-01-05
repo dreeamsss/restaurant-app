@@ -1,0 +1,40 @@
+.intro {
+  margin-bottom: 50px;
+}
+
+.introImage {
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+  height: 500px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 500px;
+    transform: rotateZ(-7deg) translateY(-3rem) translateX(5rem);
+  }
+}
+
+.introContent {
+  position: relative;
+  margin-top: -250px;
+  padding: 30px;
+  background-color: rgba(111, 0, 204, 0.9);
+  border-radius: 30px;
+  color: #fff;
+}
+
+.introContainer {
+  max-width: 720px;
+  text-align: center;
+}
+
+.introTitle {
+  font-size: 50px;
+}
+
+.introText {
+  font-size: 20px;
+}

@@ -1,0 +1,48 @@
+.cartList {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.totalPrice,
+.totalTitle {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.totalTitle {
+  margin: 0;
+}
+
+.totalContent {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeBtn,
+.orderBtn {
+  font-size: 19px;
+}
+
+.closeBtn {
+  margin-right: 20px;
+  background-color: transparent;
+  color: #1c1c1c;
+  border: 1px solid #1c1c1c;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.entity {
+  text-align: center;
+  font-size: 30px;
+}
